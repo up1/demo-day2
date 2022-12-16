@@ -34,7 +34,7 @@
 							"",
 							"pm.test(\"Check data\", function () {",
 							"    var jsonData = pm.response.json();",
-							"    pm.expect(jsonData.id).to.eql(1);",
+							"    pm.expect(jsonData.id).to.eql(2);",
 							"    pm.expect(jsonData.email).to.eql(\"Sincere@april.biz\");",
 							"    pm.collectionVariables.set(\"MY_EMAIL\", jsonData.email);",
 							"",
